@@ -9,7 +9,7 @@ import { createPrediction } from "./controllers/flowise.js";
 const app = express();
 const PORT = process.env.PORT || 4000;
 
-let ideaCount = 32; // Variable to store the count of ideas generated
+let ideaCount = 42; // Variable to store the count of ideas generated
 
 app.use(express.static("public"));
 
